@@ -1,6 +1,7 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
+/* Global styles start */
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +18,12 @@
   --main-color: #83b735;
 }
 
+section {
+  padding: 50px 10%;
+}
+/* Global styles end */
+
+/* Navbar start */
 header {
   position: fixed;
   width: 100%;
@@ -61,3 +68,46 @@ header {
   cursor: pointer;
   display: none;
 }
+/* Navbar start */
+
+/* Home section start */
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.home-text h1 {
+  font-size: 2.7rem;
+}
+
+.home-text p {
+  font-size: 0.938rem;
+  margin: 0.4rem 0 1.8rem;
+}
+
+.home-text span {
+  color: var(--main-color);
+}
+
+.btn {
+  padding: 10px 14px;
+  background: var(--main-color);
+  color: #fff;
+  border-radius: 0.3rem;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background: #8fc53d;
+}
+/* Home section end */
+
+/* Shop section start */
+/* Shop section end */
