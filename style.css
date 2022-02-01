@@ -110,4 +110,65 @@ header {
 /* Home section end */
 
 /* Shop section start */
+.shop-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  height: 500px;
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+.heading {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.heading span {
+  font-weight: 500;
+  color: var(--main-color);
+}
+
+.box-img img {
+  max-width: 100%;
+}
+
+.title-price {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.title-price h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.box span {
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding-left: 12px;
+  color: var(--main-color);
+}
+
+.stars .bx {
+  color: var(--main-color);
+}
+
+.box .bx-cart {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 7px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 4px 0 4px 0;
+  background: var(--main-color);
+}
+
+.box .bx-cart:hover {
+  background: #8fc53d;
+}
 /* Shop section end */
+
+/* New arrival section start */
+/* New arrival section end */
