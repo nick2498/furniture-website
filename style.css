@@ -248,3 +248,42 @@ header {
   filter: grayscale(0);
 }
 /* Brands section end */
+
+/* Contact section start */
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.newsletter h2 {
+  color: #fff;
+}
+
+.news-box {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.news-box input {
+  width: 260px;
+  height: 44px;
+  border: none;
+  outline: none;
+  background: #fff;
+  padding: 10px;
+}
+
+.news-box .btn {
+  height: 44px;
+  padding: 11px;
+  border-radius: 0;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+/* Contact section end */
