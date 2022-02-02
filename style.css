@@ -116,8 +116,10 @@ header {
 }
 
 .heading span {
+  font-size: 14px;
   font-weight: 500;
   color: var(--main-color);
+  text-transform: uppercase;
 }
 
 .shop-container,
@@ -287,3 +289,68 @@ header {
   text-transform: uppercase;
 }
 /* Contact section end */
+
+/* Footer section start */
+.footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+  gap: 1rem;
+}
+
+.footer-box h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer-box span {
+  color: var(--main-color);
+}
+
+.footer-box p {
+  font-size: 0.938rem;
+  margin-bottom: 10px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social a {
+  font-size: 24px;
+  margin-right: 10px;
+  color: var(--text-color);
+}
+
+.social a:hover {
+  color: var(--main-color);
+}
+
+.footer-box h3 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.footer-box li a {
+  color: var(--text-color);
+}
+
+.footer-box li a {
+  color: var(--main-color);
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info span {
+  color: var(--text-color);
+}
+/* Footer section end */
+
+.copyright {
+  padding: 20px;
+  text-align: center;
+}
